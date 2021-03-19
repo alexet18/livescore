@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Proiect Android Livescore</string>
+    <string-array name="spinnerSports">
+        <item>Fotbal</item>
+        <item>Tenis</item>
+        <item>Baschet</item>
+        <item>Volei</item>
+
+
+    </string-array>
+
+
+    <string name="username">Username</string>
+    <string name="password0">Passowrd</string>
+    <string name="no_account">Nu ai cont? Apasa </string>
+    <string name="login_here"> aici</string>
+    <string name="profile_save">Salveaza</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="email_register">E-mail</string>
+    <string name="vs">VS</string>
+    <string name="minus">-</string>
+    <string name="checkbox">Nightmode</string>
+    <string name="checkbox_baterie">Auto nightmode when battery low</string>
+    <string name="raport1">Procentaj reusita pronosticuri:</string>
+    <string name="raport2">Sportul cu rata cea mai mare de reusita:</string>
+
+</resources>

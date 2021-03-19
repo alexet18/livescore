@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewVolei"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#fff"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="3dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:stretchColumns="2">
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/team1Volei"
+                android:layout_width="130dp"
+                android:textAlignment="center"/>
+            <TextView android:text="@string/vs"
+                android:textColor="#000"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+
+                android:textAlignment="center"/>
+            <ImageView
+                android:id="@+id/team2Volei"
+                android:layout_width="130dp"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/team1VoleiTv"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+
+                android:layout_width="130dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:text="@string/minus"
+                android:textColor="#000"
+
+                android:layout_height="wrap_content"
+
+                android:layout_width="130dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/team2VoleiTv"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+
+                android:layout_width="130dp"
+                android:textAlignment="center"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/scor1Volei"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:id="@+id/dateVolei"
+                android:layout_height="wrap_content"
+
+                android:layout_width="130dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:id="@+id/scor2Volei"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:id="@+id/timeVolei"
+
+                android:layout_height="wrap_content"
+
+                android:layout_width="130dp"
+                android:textAlignment="center"/>
+        </TableRow>
+
+
+    </TableLayout>
+</androidx.cardview.widget.CardView>

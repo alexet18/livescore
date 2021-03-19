@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyProfileActivity"
+    android:orientation="vertical"
+    android:background="@drawable/login_background">
+
+    <Space
+    android:layout_width="match_parent"
+    android:layout_height="100dp" />
+
+    <EditText
+        android:id = "@+id/profile_username"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:hint = "@string/username"
+        android:layout_margin="30dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id = "@+id/profile_password"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:inputType = "textPassword"
+        android:layout_margin="30dp"
+        android:hint = "@string/password0"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id = "@+id/profile_email"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_margin="30dp"
+        android:hint = "@string/email_register"
+        android:textColor="@color/black"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/profile_save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="100dp"
+        android:text="@string/profile_save"
+        android:textSize="30dp"
+
+        style="@style/white"
+        />
+    <CheckBox
+        android:id="@+id/profile_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox"></CheckBox>
+    <CheckBox
+        android:id="@+id/profile_checkbox_baterie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkbox_baterie"></CheckBox>
+</LinearLayout>
+
+
+

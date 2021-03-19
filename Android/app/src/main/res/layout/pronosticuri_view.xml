@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:textAlignment="center">
+    <TableRow>
+        <TextView android:id="@+id/pronosticTeam1"
+            android:layout_height="wrap_content"
+            android:layout_width="130dp"
+            android:textAlignment="center"></TextView>
+        <TextView
+            android:text="@string/minus"
+            android:layout_height="wrap_content"
+            android:layout_width="130dp"
+            android:textAlignment="center"></TextView>
+        <TextView android:id="@+id/pronosticTeam2"
+            android:layout_height="wrap_content"
+            android:layout_width="130dp"
+            android:textAlignment="center"></TextView>
+    </TableRow>
+    <TableRow>
+        <Space
+            android:layout_width="130dp"></Space>
+        <TextView
+            android:id="@+id/pronosticVerdict"
+            android:layout_height="wrap_content"
+            android:layout_width="130dp"
+            android:textAlignment="center">
+        </TextView>
+        <Space
+            android:layout_width="130dp"></Space>
+    </TableRow>
+</TableLayout>
+
+</LinearLayout>

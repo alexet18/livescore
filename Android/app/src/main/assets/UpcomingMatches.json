@@ -1,0 +1,195 @@
+{
+"fotbalMatches":[
+{"matchId" : "1",
+  "team1": "Viitorul Constanta",
+"team2": "CFR Cluj",
+"type": "Campionat",
+"league": "Liga 1 Betano",
+"date": "2020-11-07",
+  "time": "21:00",
+  "codimg1":  "0",
+  "codimg2": "1",
+"roster": [
+
+      {
+        "player1": "Portarson",
+        "player2": "Aparatorovici",
+        "player3": "Fundasescu",
+        "player4": "Aripovici",
+        "player5": "Mijlocasovici",
+        "player6": "Talentarov",
+        "player7": "Golatso",
+        "player8": "Giovani",
+        "player9": "Tastatura",
+        "player10": "Gianluca",
+        "player11": "Giuseppe"
+     },
+
+
+    {
+      "player1": "Carlos",
+      "player2": "Tamas",
+      "player3": "Zicu",
+      "player4": "Milica",
+      "player5": "Fanuel",
+      "player6": "Mifu",
+      "player7": "Lacatus",
+      "player8": "Ofensivescu",
+      "player9": "Lautaru",
+      "player10": "Pardelian",
+      "player11": "Mercedes"
+    }
+
+
+]},
+
+{"matchId": "2",
+  "team1": "FCSB",
+"team2": "Dinamo ",
+"type": "Campionat",
+"league": "Liga 1 Betano",
+"date": "2020-11-07",
+  "time": "21:00",
+  "codimg1":  "2",
+  "codimg2": "3",
+  "roster": [
+
+    {
+      "player1": "Vlad",
+      "player2": "Manea",
+      "player3": "Boboc",
+      "player4": "Coman",
+      "player5": "Man",
+      "player6": "Tanase",
+      "player7": "Bizonul",
+      "player8": "Vatajelu",
+      "player9": "Gigi",
+      "player10": "Pantiru",
+      "player11": "Messi"
+
+  },
+
+
+    {
+      "player1": "Jack",
+      "player2": "John",
+      "player3": "Juninho",
+      "player4": "Ronaldinho",
+      "player5": "Pepe",
+      "player6": "Maradona",
+      "player7": "Eduardo",
+      "player8": "Cantona",
+      "player9": "Lampard",
+      "player10": "Giggs",
+      "player11": "Rooney"
+
+  }
+
+]},
+
+  {"matchId": "3",
+    "team1": "U Craiova",
+    "team2": "Astra Giurgiu",
+    "type": "Campionat",
+    "league": "Liga 1 Betano",
+    "date": "2020-11-07",
+    "time": "21:00",
+    "codimg1":  "4",
+    "codimg2": "5"}
+
+
+
+
+
+],
+
+  "voleiMatches":[
+    {"matchId": "4",
+      "team1": "Tomis Constanta",
+      "team2": "Stiinta Bacau",
+      "type": "Campionat",
+      "league": "Liga Nationala",
+      "date": "2020-11-07",
+      "time": "21:00",
+      "codimg1":  "0",
+      "codimg2": "1"},
+
+    {"matchId": "5",
+      "team1": "Unirea Dej",
+      "team2": "Arcada Galati",
+      "type": "Campionat",
+      "league": "Liga Nationala",
+      "date": "2020-11-07",
+      "time": "21:00",
+      "codimg1":  "2",
+      "codimg2": "3"}
+
+
+
+  ],
+
+
+  "baschetMatches":[
+    {"matchId": "6",
+      "team1": "LA Lakers",
+      "team2": "Miami Heat",
+      "type": "Campionat",
+      "league": "NBA",
+      "date": "2020-11-07",
+      "time": "21:00",
+      "codimg1":  "0",
+      "codimg2": "1"},
+
+    {"matchId": "7",
+      "team1": "Raptors",
+      "team2": "Spurs ",
+      "type": "Campionat",
+      "league": "NBA",
+      "date": "2020-11-07",
+      "time": "21:00",
+      "codimg1":  "2",
+      "codimg2": "3"},
+
+    {"matchId": "8",
+      "team1": "Cleveland",
+      "team2": "Portland",
+      "type": "Campionat",
+      "league": "NBA",
+      "date": "2020-11-07",
+      "time": "21:00",
+      "codimg1":  "4",
+      "codimg2": "5"}
+  ],
+
+  "tenisMatches":[
+    {"matchId": "9",
+      "team1": "Roger Federer",
+      "team2":"Rafael Nadal",
+      "type": "Grand Slam",
+      "league": "Roland Garros",
+      "date": "2020-11-07",
+      "time": "21:00",
+      "codimg1":  "0",
+      "codimg2": "1"},
+
+    {"matchId": "10",
+      "team1": "Novak Djokovic",
+      "team2": "Andy Murray ",
+      "type": "Grand Slam",
+      "league": "Roland Garros",
+      "date": "2020-11-07",
+      "time": "21:00",
+      "codimg1":  "2",
+      "codimg2": "3"},
+
+    {"matchId": "11",
+      "team1": "Simona Halep",
+      "team2": "Maria Sharapova",
+      "type": "Grand Slam",
+      "league": "Roland Garros",
+      "date": "2020-11-07",
+      "time": "21:00",
+      "codimg1":  "4",
+      "codimg2": "5"}
+  ]
+}
